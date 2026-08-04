@@ -80,6 +80,17 @@
         margin-top:0;
     }
 
+    .abstract-box {
+      display: none;              /* Hidden initially */
+      margin-top: 8px;            /* Space below the button */
+      padding: 12px;              /* Space inside the box */
+      border: 1px solid #ccc;     /* Gray border */
+      border-radius: 6px;         /* Rounded corners */
+      background-color: #f8f8f8;  /* Light gray background */
+      line-height: 1.6;
+      color: #333;
+  }
+
     @media (max-width: 768px) {
       body {
         margin: 20px;
@@ -163,7 +174,7 @@
         </button> 
         
         
-        <div id="abs1" style="display:none;">
+        <div id="abs2" class="abstract-box">
           We introduce a network two-way fixed effect regression with group structure. We propose a group prior for 
           unobserved heterogeneity. While the OLS estimator exists under this model, it can perform poorly when the 
           bipaetite network is sparse and with group structure. We therefore develop a machine-learning-assisted 
