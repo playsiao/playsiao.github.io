@@ -1,12 +1,13 @@
-
 function toggleAbstract(id) {
 
-    var x = document.getElementById(id);
+    const abs = document.getElementById(id);
 
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    const currentDisplay = window.getComputedStyle(abs).display;
+
+    if (currentDisplay === "none") {
+        abs.style.display = "block";
     } else {
-        x.style.display = "none";
+        abs.style.display = "none";
     }
 
 }
