@@ -82,15 +82,26 @@
           Abstract 
         </button> 
         [<a href="files/paper2.pdf">Available upon request</a>] 
-        <div id="abs4" class="abstract-box"> We develop a directed, weighted, horizon-specific network framework for measuring contagion 
-        across financial markets. An edge from one market to another indicates that past movements in the former predict 
-        future movements in the latter, conditional on the remaining markets; the edge weight measures the resulting 
-        reduction in forecast uncertainty. The network is estimated from a multi-horizon heterogeneous autoregressive 
-        model using debiased machine learning, allowing for high-dimensional dependence among markets. The framework 
-        identifies transmitters and receivers of shocks, traces transmission paths over rolling windows, characterizes
-        horizon-specific contagion patterns, and distinguishes direct predictive spillovers from co-movement induced 
-        by common factors. The proposed approach provides a unified empirical
-        tool for analyzing contagion, systemic risk, and stress propagation in interconnected financial markets. 
+        <div id="abs4" class="abstract-box"> This paper develops a directed, weighted and horizon-specific network of
+        predictive transmission across financial markets. A link from one market to
+        another at a given forecast horizon is present when the past of the first
+        market improves the forecast of the second at that horizon, conditional on
+        the histories of all remaining markets in the system, and the strength of
+        the link is measured by the Granger-causality measure of Dufour and Taamouti
+        (2010), namely the proportional reduction in the conditional forecast-error
+        variance of the receiving market. The network is estimated from a
+        multi-horizon heterogeneous autoregressive model by debiased machine
+        learning, which delivers Gaussian inference for horizon-specific predictive
+        coefficients when the conditioning set is high-dimensional. The framework
+        identifies transmitters and receivers, traces transmission paths across
+        rolling windows, documents how the architecture of transmission varies with
+        the forecast horizon, and separates incremental predictive content from
+        co-movement induced by common factors. Throughout, Granger causality is
+        understood in its predictive sense, so that edges and weights are statements
+        about conditional predictability rather than about structural or
+        counterfactual effects. The result is a unified empirical tool for the study
+        of contagion, systemic risk and stress propagation in interconnected
+        markets. 
         </div>
         </p>
 
