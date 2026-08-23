@@ -67,10 +67,15 @@
           Abstract 
         </button> 
         [<a href="files/paper4.pdf">Paper</a>]
-        <div id="abs3" class="abstract-box"> We propose a network autoregression to learn mixed membership in large panel of time series.
-        The data generating process, coefficient matrix and Mixed membership structure are integrated into one 
-        unified system using joint distribution specified by probabilistic graph.
-        We also propose a set of algorithm to learn latent mixed membership structure with the model. 
+        <div id="abs3" class="abstract-box"> We propose a generative network autoregressive model in which the 
+          network coefficient is a random matrix following a joint distribution specified by a Bayesian belief network. 
+          Rather than treating the coefficient as fixed and observed, we model it as the output of a latent generative 
+          process that simultaneously governs the network structure and the resulting panel data. A central feature is that 
+          units may exhibit mixed membership across latent groups rather than belonging to a single group. We develop an estimator
+          that recovers the latent membership structure from panel observations, establish identification and consistency as both 
+          panel dimensions grow, and assess finite-sample performance through simulations. An application to the U.S. financial 
+          system documents substantial mixed exposure across latent groups, showing that mixed membership materially 
+          shapes the dependence structure among financial firms. 
           </div>  
       </p> 
 
