@@ -119,13 +119,21 @@
         </button> 
         [<a href="files/paper2.pdf">Paper</a>]
         
-        <div id="abs5" class="abstract-box">  We propose a methodology for estimating mixed-membership structure in large panels of time series. 
-        Unlike pure-membership models, in which each unit belongs exclusively to one group, mixed-membership models allow 
-        each unit to have partial affiliations with multiple latent groups. We develop a two-path partial-correlation network
-        model in which the sparsity pattern and interaction intensity are governed separately by mixed membership and 
-        node-specific sociability. These latent structures are integrated into a unified probabilistic system through a 
-        Bayesian network and enter the panel model through the innovation process. 
-        We then propose a spectral algorithm to estimate the latent mixed-membership structure. 
+        <div id="abs5" class="abstract-box">  Latent group structure is a standard device for modeling cross-sectional
+        dependence in large panels, yet existing partial-correlation community methods
+        typically assign each unit to a single group and do not distinguish the
+        formation of conditional-dependence links from their strength. We propose a
+        two-path mixed-membership partial-correlation network (2PMM-PCN). Mixed
+        membership governs link formation along an extensive margin, while
+        node-specific sociability governs link strength along an intensive margin.
+        Although the two paths have distinct economic interpretations, their
+        node-specific components enter the population signal only through a common
+        scale, allowing the mixed memberships to be recovered by a single spectral
+        procedure. We develop PartialCorr-Mixed-SCORE and establish a convergence rate
+        for the average membership estimation error under weak dependence. In an
+        application to U.S. state employment growth, the estimated memberships reproduce
+        the broad group structure found in earlier studies while revealing economically
+        meaningful overlaps that a single-group assignment cannot represent.
         </div>
       </p> 
        
