@@ -50,12 +50,19 @@
           Abstract 
       </button> 
         [<a href="files/jmp.pdf">Available upon Request</a>]
-      <div id="abs2" class="abstract-box"> We introduce a network two-way fixed effect regression with group structure. We propose a group prior for 
-         unobserved heterogeneity. While the OLS estimator exists under this model, it can perform poorly 
-          when the bipaetite network is sparse and with group structure. We therefore develop a machine-learning-assisted 
-          empirical Bayes estimation framework that combines a structural causal model with a Bayesian belief network. This 
-          framework yields a class of empirical Bayes estimators designed specifically for the proposed group-network two-way 
-          fixed effect regression. 
+      <div id="abs2" class="abstract-box"> We propose a two-way effects model for matched data represented by a bipartite network with latent group structure. 
+          A directed acyclic graph (DAG) encodes the assumed relationships among the observed outcomes, network links, 
+          latent effects, group memberships, and prior parameters, thereby clarifying the data-generating process and organizing 
+          the empirical Bayes (EB) estimation procedure. Unobserved heterogeneity is modeled using group-specific prior distributions, 
+          allowing individual effects to vary both across and within groups. Although the two-way effects can be estimated by 
+          least-squares estimator, LS may be imprecise when the underlying bipartite network is sparse and connected across 
+          latent groups. We therefore develop a machine-learning-assisted EB estimator that first learns the latent group 
+          structure from the network and then exploits this structure to shrink the estimated effects toward their corresponding 
+          group-specific distributions. We establish the theoretical properties of the proposed estimator, and Monte Carlo 
+          simulations show that it substantially reduces estimation error relative to OLS under the data-generating processes 
+          considered. Finally, in an empirical application to Amazon user--product ratings, 
+          we use the proposed method to estimate and characterize heterogeneity in the user- and product-specific 
+          components of ratings.
       
       </div>  
       </p>
