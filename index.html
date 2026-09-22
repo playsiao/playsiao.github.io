@@ -211,19 +211,19 @@
         </button> 
         [<a href="files/Machine_Learning_Assisted_Empirical_Bayes_Estimation_for_Group_Regression_on_Network_Data.pdf">Paper</a>]       
         <div id="abs1" class="abstract-box" style="display:none;">
-          We propose a two-way effects model for matched data represented by a bipartite network with latent group structure. 
-          A directed acyclic graph (DAG) encodes the assumed relationships among the observed outcomes, network links, 
-          latent effects, group memberships, and prior parameters, thereby clarifying the data-generating process and organizing 
-          the empirical Bayes (EB) estimation procedure. Unobserved heterogeneity is modeled using group-specific prior distributions, 
-          allowing individual effects to vary both across and within groups. Although the two-way effects can be estimated by 
-          least-squares estimator, LS may be imprecise when the underlying bipartite network is sparse and connected across 
-          latent groups. We therefore develop a machine-learning-assisted EB estimator that first learns the latent group 
-          structure from the network and then exploits this structure to shrink the estimated effects toward their corresponding 
-          group-specific distributions. We establish the theoretical properties of the proposed estimator, and Monte Carlo 
-          simulations show that it substantially reduces estimation error relative to OLS under the data-generating processes 
-          considered. Finally, in an empirical application to Amazon user--product ratings, 
-          we use the proposed method to estimate and characterize heterogeneity in the user- and product-specific 
-          components of ratings.
+          We study the latent group structure in a two-way effect model for matched data represented by a bipartite network. 
+          A directed acyclic graph (DAG) encodes the assumed relationships among the observed outcomes, network links, latent effects, 
+          group memberships, and prior parameters, thereby clarifying the data-generating process and facilitating estimation. 
+          Unobserved heterogeneity is modeled using group-specific prior distributions, allowing individual effects to vary both 
+          across and within groups. Although the two-way effects can be estimated by ordinary least squares (OLS), this estimator 
+          may be imprecise when the underlying bipartite network is sparse or connected across latent groups. We therefore develop 
+          a machine-learning-assisted EB estimator that first learns the latent group structure from the network and then exploits 
+          this structure to shrink the estimated effects toward their corresponding group-specific distributions. We establish 
+          identification conditions, consistency of prior-parameter estimates, oracle equivalence, and the conditional 
+          MSE/bias–variance characterization. The Monte Carlo simulations show that it substantially reduces estimation error 
+          relative to OLS under the data-generating processes considered. Finally, in an empirical application to Amazon user–product
+          ratings, we use the proposed method to estimate and characterize heterogeneity
+          in the user- and product-specific components of ratings.
         </div>
         </p>
       </div>
