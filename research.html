@@ -53,15 +53,15 @@
       <div id="abs2" class="abstract-box"> We estimate group-specific heterogeneity in two-way effects models for matched data 
         represented by a bipartite network. When the network is sparse or connected across groups, ordinary least squares (OLS) 
         estimates individual effects imprecisely. We propose a machine-learning-assisted empirical Bayes (EB) estimator that uses 
-        the network to estimate group memberships and then shrinks effects toward their group-specific prior distributions. 
-        A Bayesian network summarizes the model’s conditional dependence assumptions and offers a unified framework for combining 
-        two-steps estimation. Under stated conditions, we characterize identification, establish consistency, and show that the 
-        feasible EB estimator approaches the oracle posterior mean, even when a vanishing fraction of nodes is misclassified. 
-        In the Monte Carlo simulation, proposed EB outperforms OLS and pooled EB when effect distributions differ across groups 
-        and the network reveals those groups. When the effect distributions do not vary across groups, the proposed empirical Bayes 
-        estimator reduces to pooled empirical Bayes. In an application to Amazon user–product ratings, we estimate and 
-        characterize heterogeneity in 
-        user-specific rating tendencies and product-specific rating components.
+        the network to estimate group memberships and then shrinks effects toward 
+        their group-specific prior distributions. We represent the
+model’s conditional dependence structure as a Bayesian network, providing a unified framework for the two-step estimation procedure.
+        Under stated conditions, we establish identification and consistency, and show that the feasible EB estimator approaches 
+        the oracle posterior mean asymptotically, even when a vanishing fraction of nodes is misclassified.
+Monte Carlo simulations show that the proposed estimator outperforms OLS and pooled EB when effect distributions differ across 
+        groups and the network provides information about group membership. When effect distributions are the same across groups, 
+        the proposed estimator reduces to pooled EB. Finally, in an application to Amazon user–product ratings, we estimate and 
+        characterize heterogeneity in users’ rating tendencies and product-specific rating components.
       
       </div>  
       </p>
