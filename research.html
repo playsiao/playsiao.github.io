@@ -42,31 +42,9 @@
     </div>
     <h1>Research</h1> 
     <div class="section"> 
-      <h2>Working Papers</h2> <p> <strong>[1] Machine-Learning-Assisted Empirical Bayes Estimation for Regression on Grouped Network Data</strong> 
-        [Job Market Paper] 
-          <br> 
-   
-      <button onclick="toggleAbstract('abs2')">
-          Abstract 
-      </button> 
-        [<a href="">Upon Request</a>]
-      <div id="abs2" class="abstract-box"> We estimate group-specific heterogeneity in two-way effects models for matched data 
-        represented by a bipartite network. When the network is sparse or connected across groups, ordinary least squares (OLS) 
-        estimates individual effects imprecisely. We propose a machine-learning-assisted empirical Bayes (EB) estimator that uses 
-        the network to estimate group memberships and then shrinks effects toward 
-        their group-specific prior distributions. We represent the
-model’s conditional dependence structure as a Bayesian network, providing a unified framework for the two-step estimation procedure.
-        Under stated conditions, we establish identification and consistency, and show that the feasible EB estimator approaches 
-        the oracle posterior mean asymptotically, even when a vanishing fraction of nodes is misclassified.
-Monte Carlo simulations show that the proposed estimator outperforms OLS and pooled EB when effect distributions differ across 
-        groups and the network provides information about group membership. When effect distributions are the same across groups, 
-        the proposed estimator reduces to pooled EB. Finally, in an application to Amazon user–product ratings, we estimate and 
-        characterize heterogeneity in users’ rating tendencies and product-specific rating components.
       
-      </div>  
-      </p>
       
-      <p> <strong>[2] Mixed Membership Estimation in Large Network Autoregression </strong>
+      <p> <strong>[1] Mixed Membership Estimation in Large Network Autoregression </strong>
          <br> 
         with <a href="https://www.endongwang.com/">Endong Wang</a> ,  revise & resubmit@The Econometrics Journal<br>
         <button onclick="toggleAbstract('abs3')">
@@ -87,7 +65,7 @@ Monte Carlo simulations show that the proposed estimator outperforms OLS and poo
 
 
 
-      <p> <strong>[3] Mixed Membership Estimation in Partial Correlation Network </strong> 
+      <p> <strong>[2] Mixed Membership Estimation in Partial Correlation Network </strong> 
          <br> 
         with <a href="https://www.endongwang.com/">Endong Wang</a>, under review<br>
         <button onclick="toggleAbstract('abs5')">
@@ -115,7 +93,7 @@ Monte Carlo simulations show that the proposed estimator outperforms OLS and poo
           
 
       
-      <p> <strong>[4] The Horizon Structure of Contagion: High-Dimensional Measurement and Inference</strong> 
+      <p> <strong>[3] The Horizon Structure of Contagion: High-Dimensional Measurement and Inference</strong> 
         
         <br> with <a href="https://sites.google.com/view/ataamouti">Abderrahim Taamouti</a> and <a href="https://www.endongwang.com/">Endong Wang</a><br> 
         <button onclick="toggleAbstract('abs4')">
@@ -139,48 +117,25 @@ Monte Carlo simulations show that the proposed estimator outperforms OLS and poo
         </div>
         </p>
 
-           
-
-        
-    <p> <strong>[5] A New Empirical Bayes Estimation for Network Peer Effect Model</strong> 
-     <br> 
-
-      <button onclick="toggleAbstract('abs6')">
+      
+      
+    <p> 
+      <strong>[4] Overlapping Community Detection in Mixed Membership Vector Autoregression</strong> 
+       <br> 
+      <button onclick="toggleAbstract('abs7')">
         Abstract 
       </button> 
-      [<a href="files/A_New_EB_Estimation_for_Network_Peer_Effect_Model.pdf">Paper</a>]
-    <div id="abs6" class="abstract-box">  We propose a novel network-based peer effect model with unobserved 
-      unit-specific heterogeneity, in which the regression structure is augmented by a probabilistic graph that 
-      characterizes the latent dependence mechanism among all components of the model. This probabilistic graph, 
-      in turn, provides the foundation for the empirical Bayes estimator developed in the paper. The group structure 
-      embedded in the unit heterogeneity arises from a group prior, which we introduce to capture the latent heterogeneity 
-      across units. Although a least squares estimator exists for the proposed model, it performs poorly in the presence 
-      of sparsity in network. To address these challenges, we develop a machine learning–assisted empirical Bayes estimator. 
-      Building on this estimation framework and the proposed group prior, we further introduce a methodology for learning 
-      latent group structures in regression models. Simulation results demonstrate that the proposed empirical Bayes estimator 
-      substantially outperforms least squares based alternatives. 
-      Finally, we apply our framework to an empirical analysis of democratic spillovers across countries.
-    </div>
-  </p> 
-
-      
-  <p> 
-    <strong>[6] Overlapping Community Detection in Mixed Membership Vector Autoregression</strong> 
-     <br> 
-    <button onclick="toggleAbstract('abs7')">
-      Abstract 
-    </button> 
-    [<a href="files/Overlapping_Community_Detection_in_Mixed_Membership_Vector_Autoregression.pdf">Paper</a>]
-    <div id="abs7" class="abstract-box">  In this work, we introduce a novel cluster affiliation vector autoregressive model, 
-      termed the mixed membership stochastic block vector autoregression (MMSB-VAR(p)). This model assumes that the VAR 
-      coefficients at all lags are random matrices following a joint distribution defined by a probabilistic generative 
-      framework. The panel data generated by this model can exhibit either single or multiple membership structures with 
-      the estimated VAR coefficients recovering the corresponding non-overlapping or overlapping block structures. 
-      To uncover the latent group structure, we propose a two-step algorithm leveraging the key insight that spillover 
-      effects within groups are significantly stronger than those between groups. We establish the consistency of the 
-      proposed algorithm and the simulation study demonstrates its effectiveness. 
-      Finally, we apply our methodology to analyze public opinions about the Ukraine-Russia war on Reddit.
-    </div> 
+      [<a href="files/Overlapping_Community_Detection_in_Mixed_Membership_Vector_Autoregression.pdf">Paper</a>]
+      <div id="abs7" class="abstract-box">  In this work, we introduce a novel cluster affiliation vector autoregressive model, 
+        termed the mixed membership stochastic block vector autoregression (MMSB-VAR(p)). This model assumes that the VAR 
+        coefficients at all lags are random matrices following a joint distribution defined by a probabilistic generative 
+        framework. The panel data generated by this model can exhibit either single or multiple membership structures with 
+        the estimated VAR coefficients recovering the corresponding non-overlapping or overlapping block structures. 
+        To uncover the latent group structure, we propose a two-step algorithm leveraging the key insight that spillover 
+        effects within groups are significantly stronger than those between groups. We establish the consistency of the 
+        proposed algorithm and the simulation study demonstrates its effectiveness. 
+        Finally, we apply our methodology to analyze public opinions about the Ukraine-Russia war on Reddit.
+      </div> 
     </p> 
 
   <div class="section"> 
